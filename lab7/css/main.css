@@ -1,0 +1,209 @@
+/* общие настройка страницы -------------------------------- */
+body,
+* {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+/* первая секция -------------------------------- */
+.logo a {
+  font-family: "Verdana";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #001e28;
+  float: left;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo span {
+  padding-top: 15px;
+}
+
+.phone .quest {
+  font-family: "Verdana";
+  font-size: 13px;
+  line-height: 1.2em;
+  font-weight: 300;
+  color: #001e28;
+}
+
+.phone a {
+  font-family: "Roboto";
+  font-size: 17px;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: #001e28;
+}
+
+.phone p {
+  margin: 0;
+}
+
+.call a {
+  font-family: "Verdana";
+  font-size: 11px;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+/* билборд -------------------------------- */
+.bilbord {
+  background-image: url("../img/safe_image_fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wraperMilenium {
+  max-width: 65%;
+}
+
+.wraperMilenium img {
+  /* padding: 0;
+  width: 50px !important;
+  height: 50px !important; */
+}
+
+.wraperMilenium li {
+  list-style-image: url("../img/girl.png");
+}
+
+.wraperMilenium h1,
+.wraperMilenium h2 {
+  font-weight: bold;
+}
+
+.wraperMilenium h1 {
+  padding-top: 110px;
+}
+
+.wraperMilenium h2 {
+  margin-top: 40px;
+}
+
+.wrapperTab {
+  padding: 80px 0 90px 0;
+}
+
+.wraperMilenium table td {
+  padding: 15px;
+}
+
+.meText {
+  font-family: "Verdana";
+}
+
+/* форма заказа -------------------------------- */
+.zakaz {
+  background-image: url("../img/safe_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.zakaz h2 {
+  margin: 100px auto 30px auto;
+}
+
+.zakaz img {
+  margin: 60px auto;
+  width: 40%;
+  height: 12px;
+}
+
+.zakaz form {
+  font-family: Verdana;
+}
+
+.zakaz form p {
+  font-family: Verdana;
+  margin-bottom: 40px;
+}
+
+.zakaz form input {
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+.zakaz form input:focus {
+  outline: none;
+  border-color: #ffaf02;
+}
+
+.zakaz form .zsubmit {
+  background-color: #ffaf02;
+  text-transform: uppercase;
+
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.zakaz .zmobil {
+  width: 30px;
+  height: 30px;
+}
+
+.zakaz .meClass {
+  font-family: Verdana;
+  font-weight: normal;
+}
+
+.zakaz .zname {
+  background-image: url("../img/avatar.png");
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  padding-left: 50px;
+}
+
+.zakaz .ztel {
+  background-image: url("../img/telephone.png");
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  padding-left: 50px;
+}
+
+.zakaz .zsubmit {
+  padding: 0 40px;
+}
+/ --------------------------------- voucher camp /
+
+.voucherCamp {
+  text-align: center;
+}
+
+.voucherCamp h2 {
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.voucherCamp .pCatalog {
+  margin-top: 30px;
+  font-weight: normal;
+  font-family: Verdana;
+  font-size: 22px;
+}
+
+.voucherCamp .itemTab {
+  height: 78px;
+  background-color: #d8f0f0;
+}
+.voucherCamp .nav-tabs .nav-link.active {
+  background-color: #ffaf02 !important;
+  outline: none;
+}
+.voucherCamp .nav-tabs .nav-link{
+  margin-right:30px ;
+  border-radius: 20px 20px 0px 0px ;
+  outline: none;
+}
+.voucherCamp .nav-tabs{
+  border-bottom: 5px solid #ffaf02;
+  outline: none;
+}
