@@ -55,9 +55,8 @@ body,
 .bilbord {
   background-image: url("../img/safe_image_fon.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-
-  background-position: ;
+  /* background-size: cover; */
+  background-position: right bottom;
 }
 
 .wraperMilenium {
@@ -174,81 +173,83 @@ body,
 .zakaz .zsubmit {
   padding: 0 40px;
 }
-/ --------------------------------- voucher camp /
+
+/* --------------------------------- voucher camp */
 
 .voucherCamp {
   text-align: center;
-  }
-  
-  .voucherCamp h2 {
+}
+
+.voucherCamp h2 {
   margin-top: 100px;
   font-size: 30px;
-  }
-  
-  .voucherCamp .pCatalog {
+}
+
+.voucherCamp .pCatalog {
   margin-top: 30px;
   font-weight: normal;
   font-family: Verdana;
   font-size: 22px;
-  }
-  
-  .voucherCamp .itemTab {
+}
+
+.voucherCamp .itemTab {
   height: 78px;
   background-color: #d8f0f0;
-  }
-  
-  .voucherCamp .nav-tabs .nav-link.active {
+}
+
+.voucherCamp .nav-tabs .nav-link.active {
   background-color: #ffaf02 !important;
   outline: none;
-  }
-  
-  .voucherCamp .nav-tabs .nav-link {
+}
+
+.voucherCamp .nav-tabs .nav-link {
   margin-right: 30px;
   border-radius: 23px 23px 0 0;
   outline: none;
-  }
-  
-  .voucherCamp .nav-tabs {
+}
+
+.voucherCamp .nav-tabs {
   border-bottom: 5px solid #ffaf02;
   outline: none;
-  }
-  
-  .nav-tabs .nav-item.show .nav-link,
-  .nav-tabs .nav-link.active {
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
   border-color: #ffaf02;
   color: #fff;
-  }
-  
-  .voucherCamp a {
+}
+
+.voucherCamp a {
   font-weight: normal;
   font-family: Verdana;
   font-size: 18px;
   color: #000;
-  }
-  
-  .voucherCamp a:hover {
+}
+
+.voucherCamp a:hover {
   color: #495057;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
   width: 30%;
-  }
+}
 
-  .voucherCamp .card .card-body .card-text{
-    font-weight: normal;
+.voucherCamp .card .card-body .card-text {
+  font-weight: normal;
   font-family: Verdana;
-  font-size: 18px;
-  color: ##001E28;
-  }
+  font-size: 14px;
+  color: #001e28;
+}
 
-  .voucherCamp .card .card-body .linkcard{
-    text-decoration: none;
-    border-bottom: 7px solid #ffaf02;
-  }
-  .voucherCamp .card:hover {
-    outline: 1px #ffaf02;
-  }
+.voucherCamp .card .card-body .linkCard {
+  text-decoration: none;
+  border-bottom: 7px solid #ffaf02;
+}
 
-  .voucherCamp .card:hover > .card-body .linkcard{
-    border-bottom: 18px solid #ffaf02;
-  }
+.voucherCamp .card:hover {
+  outline: 1px solid #ffaf02;
+}
+
+.voucherCamp .card:hover > .card-body .linkCard {
+  border-bottom: 18px solid #ffaf02;
+}
